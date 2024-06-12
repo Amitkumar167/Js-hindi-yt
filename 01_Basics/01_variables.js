@@ -5,7 +5,10 @@ accountcity = "Jammu"
 
 // const changes not allowed
 // variable can be changed
-// avoid the use of var 
-// prefer the use of let only for variables 
+/* avoid the use of var
+ because of block scope pron
+*/
+/* prefer the use of let only for variables 
+*/
 
 console.table([accountId, account_email, account_Password, accountcity]);
