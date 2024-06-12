@@ -15,7 +15,7 @@ account_email = "amit@gmail.com"
  semicolons are optional 
 */ 
 /* 
-prefer the use of let only for variables 
+prefer to use let only for variables 
 */
 
 
