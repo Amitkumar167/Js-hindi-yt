@@ -9,7 +9,7 @@ let accountState;
 account_email = "amit@gmail.com"
 
 /* avoid the use of var
- because of block scope problem and functional scope
+ because of issue block scope and functional scope
 */
 /*
  semicolons are optional 
