@@ -25,10 +25,10 @@ const bigNumber = 3456543576654356754n
 // Array, Objects, Functions
 
 // const heros = ["shaktiman", "naagraj", "doga"];
-// let myObj = {
+//  let myObj = {
 //     name: "hitesh",
-//     age: 22,
-// }
+//    age: 22,
+//  }
 
 // const myFunction = function(){
 //     console.log("Hello world");
@@ -37,3 +37,29 @@ const bigNumber = 3456543576654356754n
 // console.log(typeof anotherId);
 
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++ Memory in javascript +++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive or Reference type)
+
+let myYoutubename = "Amitdotcom"
+
+let anothername = myYoutubename
+anothername = "Amitcoding"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userone = {
+    email: "user@gmail.com",
+
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "amit@gmail,com"
+
+// console.log(userone.email);
+// console.log(usertwo.email);
