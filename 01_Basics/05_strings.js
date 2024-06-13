@@ -1,9 +1,9 @@
-const name = "Amit"
+const name = "amit"
 const repoCount = 5
 
 // console.log(name + repoCount + " Value");
 
-// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name.toUpperCase()} and my repo count is ${repoCount}`);
 
 const gameName = new String('Amit-KNG-com')
 
@@ -17,11 +17,11 @@ const gameName = new String('Amit-KNG-com')
 // console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+// console.log(newString);
 
 const anotherString = gameName.slice(1,-4 ) 
 // in slice we acn use negative value also
-console.log(anotherString);
+// console.log(anotherString);
 
 // const newStringOne = "   Amit    "
 // console.log(newStringOne);
